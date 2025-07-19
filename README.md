@@ -31,3 +31,14 @@ Built using:
 - Human plays as X, AI plays as O
 - AI uses Minimax algorithm to always make the best move
 - Detects win, loss, or draw
+  4.**Image Captioning AI with CNN + LSTM**
+
+This project implements an Image Captioning system that combines **Computer Vision** and **Natural Language Processing (NLP)**. The system uses a pre-trained CNN (ResNet50) for extracting image features and a simple RNN-based decoder (LSTM) for generating captions.
+
+Features
+
+- Uses **ResNet50** (pre-trained on ImageNet) to extract deep features from input images.
+- Uses **LSTM** to generate meaningful English captions from image features.
+- Simple implementation designed to run in **Google Colab**.
+- Demonstrates a basic pipeline for combining **vision and language** tasks.
+
